@@ -105,3 +105,33 @@ nav h2{
     height: 328px;
     border-radius: 48px;
 }
+
+/* frame2 */
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 142px;
+    border-radius: 24px;
+}
+.statistics{
+    display: flex;
+    justify-content: space-around;
+}
+.frame-2-contents{
+    text-align: center;
+}
+.f2-heading{
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #252432;
+}
+.number{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.number-description{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
