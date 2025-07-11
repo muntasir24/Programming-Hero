@@ -32,7 +32,9 @@ body {
     border: none;
     padding: 12px 36px;
     font-weight: bold;
-    font-size: 16;
+    font-size: 16px;
+    transition: all 0.3s ease;
+        
 
 }
 .section-margin{
@@ -264,9 +266,60 @@ form{
 }
 textarea{
     display: block;
+    resize: none;
 }
 label{
     display: inline-block;
     margin-bottom: 10px;
     font-size: 18px;
+}
+/* Footer Section */
+.flogo{
+font-weight: bolder;
+font-size: 100px;
+color: #4E47FF;
+margin-bottom: 8px;
+
+}
+.footer{
+    text-align: center;
+    padding:104px 454px ;
+    background-color: white;
+  
+}
+.footer-description{
+    color: #8987A1;
+    font-size: 16px;
+}
+.footer-content{
+ margin: 0px auto;
+ max-width: 60%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+margin-top: 20px;
+}
+
+.footer-links a{
+    text-decoration: none;
+
+}
+.footer-links a p{
+    color: #8987A1;
+    font-size: 16px;
+}
+
+/* button hover */
+.btn-hover{
+    cursor: pointer;
+
+}
+.btn-primary:hover {
+    background-color: #347928;
+    
+    transform: scale(1.05);
+  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    
 }
