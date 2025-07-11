@@ -200,3 +200,33 @@ font-size: 16px;
 .feedback img{
     border-radius: 50%;
 }
+
+/* frame 4 Let’s Get In Touch Section */
+.frame-4{
+text-align: center;
+}
+.f4btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.frame-4-contents{
+border-radius: 14px;
+background-color: #FFFFFF;
+padding: 71px 150px;
+
+}
+.f4title{
+    font-weight: bold;
+    font-size: 50;
+    margin-bottom: 20px;
+}
+.f4description{
+color: rgba(0, 0, 0, 0.5);
+font-size: 16;
+margin-bottom: 20px;
+}
+.f4img{
+border-radius: 48px;
+max-width: 840px;
+}
+
