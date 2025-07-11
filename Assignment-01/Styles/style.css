@@ -123,15 +123,18 @@ nav h2{
 .statistics{
     display: flex;
     justify-content: space-around;
+  
 }
 .frame-2-contents{
     text-align: center;
+    
 }
 .f2-heading{
     font-weight: bold;
     font-size: 38px;
     margin-bottom: 40px;
     color: #252432;
+    white-space: nowrap;
 }
 .number{
     font-weight: bold;
@@ -158,6 +161,7 @@ text-align: center;
     justify-content: center;
     display: flex;
     gap: 20px;
+   /* flex-wrap: wrap; */
    
 }
 .feedbacks{
@@ -165,6 +169,7 @@ text-align: center;
    border-radius: 14px;
     border: 1px solid #F2EDED;
     padding: 24px;
+    /* max-width: 100%; */
 
 }
 .identity{
@@ -203,7 +208,7 @@ font-size: 16px;
     border-radius: 50%;
 }
 
-/* frame 4 Let’s Get In Touch Section */
+/* frame 4 Ready to Focous Better*/
 .frame-4{
 text-align: center;
 }
@@ -230,13 +235,13 @@ margin-bottom: 20px;
 .f4img{
 border-radius: 48px;
 max-width: 840px;
+max-width: 100%;
+/* display: block;
+margin: 0,auto; */
 }
 
 /* frame 5 Let’s Get In Touch Section */
 
-.frame-5{
-
-}
 .frame-5-contents{
 display: flex;
 justify-content: center;
@@ -283,13 +288,14 @@ margin-bottom: 8px;
 }
 .footer{
     text-align: center;
-    padding:104px 454px ;
+    padding:104px 5% ;
     background-color: white;
   
 }
 .footer-description{
     color: #8987A1;
     font-size: 16px;
+   
 }
 .footer-content{
  margin: 0px auto;
