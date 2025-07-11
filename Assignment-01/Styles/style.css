@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+        box-sizing: border-box;
+}
+body {
+   background-color: #F5F8FF; 
+    
 }
 /* Shared styles */
 .text-center{
@@ -40,6 +45,7 @@
     
     background-image: url('../Assets/Hero-bg.png');
  width: 100%;
+ 
 }
 /* nav styles */
 
@@ -134,4 +140,63 @@ nav h2{
     font-size: 20px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.5);
+}
+/* frame 3 Users’ Feedback Section */
+
+.feedback-header{
+font-weight: bold;
+font-size: 42px;
+color: #252432;
+text-align: center;
+
+}
+.feedback-card{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+   
+}
+.feedbacks{
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 14px;
+    border: 1px solid #F2EDED;
+    padding: 24px;
+
+}
+.identity{
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+.star{
+    display: flex;
+    gap:5px;
+    margin-bottom: 24px;
+}
+.feedback-title{
+    margin-bottom: 8px;
+    color :#1E1E1E;
+    font-weight: 700;
+    font-size: 24px;
+}
+.feedback-description{
+font-size: 16px;
+font-weight: 50px;
+color: #1E1E1E;
+}
+.name{
+font-weight: 700;
+    font-size: 16px;
+    color: #757575;
+}
+.date{
+font-size: 16px;
+    font-weight: normal;
+    color: #B3B3B3;
+
+}
+.feedback img{
+    border-radius: 50%;
 }
