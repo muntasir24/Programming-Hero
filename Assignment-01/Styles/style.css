@@ -230,3 +230,43 @@ border-radius: 48px;
 max-width: 840px;
 }
 
+/* frame 5 Let’s Get In Touch Section */
+
+.frame-5{
+
+}
+.frame-5-contents{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+}
+.f5content{
+width: 50%;
+
+}
+.f5title{
+font-weight: bold;
+font-size: 97px;
+margin-top: 200px;
+margin-bottom: 200px;
+}
+input,textarea{
+   width: 100%;
+   margin-bottom: 19px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+}
+form{
+    padding-bottom: 71px;
+    padding-top: 71px;
+    
+}
+textarea{
+    display: block;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
