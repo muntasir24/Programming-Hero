@@ -9,7 +9,7 @@
 ## 📋 Description
 
 This is **Assignment 01** of the Programming Hero web development course.  
-It includes a responsive landing page designed using:
+It includes  landing page designed using:
 
 - ✅ HTML5
 - ✅ CSS3
