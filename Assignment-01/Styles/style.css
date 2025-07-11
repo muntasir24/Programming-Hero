@@ -288,7 +288,7 @@ margin-bottom: 8px;
 }
 .footer{
     text-align: center;
-    padding:104px 5% ;
+    padding:104px 10%;
     background-color: white;
   
 }
@@ -302,9 +302,12 @@ margin-bottom: 8px;
  max-width: 60%;
 }
 .footer-links{
+   
     display: flex;
-    justify-content: space-around;
+justify-content: center;   
+    gap:48px ;
 margin-top: 20px;
+
 }
 
 .footer-links a{
