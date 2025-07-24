@@ -53,7 +53,7 @@
 a{
     text-decoration: none;
 }
-li{
+.nav-ul li{
     list-style: none;
 }
 
@@ -190,6 +190,41 @@ padding: 0 126px;
     width: 100%;
 }
 
+/* plant lover */
+
+.pl-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: -20px;
+}
+.pl-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.pl-info{
+    max-width: 50%;
+   padding: 38px 0;
+}
+.pl-img{
+    max-width: 50%;
+}
+.plant-lover{
+  gap: 60px;  
+  margin-top: 210px;
+  border: 2px solid blue;
+  position: relative;
+  gap :90px;
+}
+.plant-lover li{
+    color: #8987A1;
+}
+.badge{
+    position: absolute;
+    width: 25%;
+    left: 400px;
+    top: -150px;
+}
 
 
 /* media query */
