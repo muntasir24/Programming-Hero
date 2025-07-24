@@ -234,12 +234,12 @@ padding: 0 126px;
 }
 .ld-title{
     font-weight: 700;
-    font-size: 3rem;
+    font-size:clamp(1.5rem, 8vw ,3rem);
     text-align: center;
     margin-bottom: 15px;
 }
 .ld-description {
-    font-size: 1.3rem;
+    font-size: xlamp(0.9rem ,8vw, 1.3rem);
     text-align: center;
    max-width: 780px;
    margin: 0 auto;
@@ -265,6 +265,7 @@ padding: 0 126px;
  justify-content: center;
  align-items: center;
  border-radius: 14px;
+background-size: cover;
 }
 .deal-2{
     
@@ -284,7 +285,7 @@ border-radius: 22px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)),url('../assets/deal-ana.png');
     background-repeat: no-repeat;
  height: clamp(160px, 25vw, 200px);
-
+background-size: cover;
  justify-content: center;
  align-items: center;
 border-radius: 14px;
@@ -298,7 +299,7 @@ border-radius: 14px;
 }
 
  .deals-container>div:nth-child(odd)>p:nth-of-type(1){
-    font-weight: 1.3rem;
+    font-size: 1.3rem;
  }
 .deals-container>div:nth-child(odd)>p:nth-of-type(2){
     font-size: 1rem;
@@ -347,6 +348,20 @@ border-radius: 14px;
 .pl-info{
     margin: 0 auto;
 }
+.deals-container{
+grid-template-columns: 1fr;
+}
+.deals-container>div:nth-child(even)>p:nth-of-type(2){
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.deals-container>div:nth-child(even)>p:nth-of-type(1){
+    font-size: 1.3rem;
+    
+ }
+ .deal-2{
+    height: clamp(160px, 25vw, 200px);
+ }
    
 }
 @media screen and (min-width:576px) and (max-width:912px){
