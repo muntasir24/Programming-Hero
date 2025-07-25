@@ -123,7 +123,7 @@ a{
     max-width: 50%;
 }
 .banner-description{
-    font-size:clamp(0.9rem, 3.6vw, 1.2rem);
+    font-size:1.2rem;
 }
 .banner-title{
     font-size:clamp(1.5rem, 8vw, 4rem);
@@ -142,7 +142,7 @@ padding: 0 3vw;
 }
 
 .plants-p{
-    font-size: 1.2rem;
+   font-size:1.2rem;
 }
 .plants {
     font-weight: 700;
@@ -467,6 +467,9 @@ grid-template-columns: 1fr;
  }
  .f-4{
     align-items: center;
+ }
+ .plants-p {
+    padding: 0;
  }
    
 }
