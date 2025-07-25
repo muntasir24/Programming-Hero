@@ -219,13 +219,24 @@ padding: 0 126px;
 .plant-lover li{
     color: #8987A1;
 }
+@keyframes badge-animation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .badge{
     position: absolute;
     width: 25%;
     left: 35%;
     top: -20%;
     transform: translate(-5%, -3%);
+    animation: badge-animation 5s linear 1s infinite  ;
 }
+
+
 
 /* latest deals */
 .latest-deal{
