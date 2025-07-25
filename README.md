@@ -32,8 +32,8 @@ It features a responsive and visually engaging landing page for a plant shop, cr
 
 - ✅ HTML5  
 - ✅ CSS3  
-- ✅ Flexbox  
-- ✅ CSS Grid  
+- ✅ Flexbox ,Grid  
+- ✅ CSS positioning
 - ✅ Responsive Design  
 - ✅ Animations and Transitions
 
