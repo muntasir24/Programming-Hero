@@ -10,6 +10,7 @@ function setVal(id,val){
 }
 
 function call(e){
+    //doing even delegation thanks to jhankar and sumit bhai!!
      if(e.target.matches("button")){
             if(e.target.innerText==="Call"){
                
@@ -21,7 +22,7 @@ function call(e){
           
            coin_cnt-=20;
            if(coin_cnt<0){
-            alert("❌ আপনার পর্যাপ্ত কয়েন নেই কল করতে কমপক্ষে ২০ কয়েন লাগেব।");
+            alert("❌ আপনার পর্যাপ্ত কয়েন নেই কল করতে কমপক্ষে ২০ কয়েন লাগবে।");
            }
            else{
             alert("📞 Calling "+serviceType+" "+serviceNum);
@@ -42,6 +43,15 @@ function call(e){
 }
 
 
+function fun(card){
+    document.getElementById(card).addEventListener('click',
+    function(e){
+       call(e);    
+    }
+)
+}
+
+
 
 let buttons = document.getElementsByClassName('love-btn');
 
@@ -55,12 +65,17 @@ for (let i = 0; i < buttons.length; i++) {
 }
 
 //call button
+fun("national");
+fun("police");
+fun("fire");
+fun("ambulance");
+fun("women");
+fun("corruption");
+fun("electricity");
+fun("brac");
+fun("railway");
 
-document.getElementById('national').addEventListener('click',
-    function(e){
-       call(e);    
-    }
-)
+
 
 
 
