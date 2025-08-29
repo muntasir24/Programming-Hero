@@ -71,6 +71,7 @@ function call(e) {
             if (e.target.innerText === "Copy") serviceNum = e.target.parentElement.parentElement.children[3].innerText;
             else serviceNum = e.target.parentElement.parentElement.parentElement.children[3].innerText;
             navigator.clipboard.writeText(serviceNum);
+            alert("নম্বর কপি হয়েছে "+serviceNum);
             let cpy_cnt = getVal("copy_cnt");
             cpy_cnt += 1;
             setVal("copy_cnt", cpy_cnt);
