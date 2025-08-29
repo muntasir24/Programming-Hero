@@ -22,7 +22,7 @@
   <div class=" flex gap-6  mt-3 md:mt-0 ">
 <button class="btn w-20  rounded-4xl bg-[#41FF6B]/10"><P id="love_cnt">0</P> <img src="./assets/heart.png" alt="" class="w-5"></button>
 <button class="btn w-20 rounded-4xl bg-[#41FF6B]/10"><P id="coin_cnt">100</P> <img src="./assets/coin.png" alt="" class="w-5"></button>
-<button class="btn w-20 rounded-4xl mr-5 bg-[#00A63E]"><p class="text-white" id="copy_cnt">2</p> <p class="text-white"> Copy</p></button>
+<button class="btn w-20 rounded-4xl mr-5 bg-[#00A63E]"><p class="text-white" id="copy_cnt">0</p> <p class="text-white"> Copy</p></button>
   </div>
 
 </div>
@@ -209,21 +209,15 @@
 
 </div>
 
-<div class="history w-full md:w-1/4 p-5 bg-white rounded-2xl" >
+<div  class="history w-full md:w-1/4 p-5 bg-white rounded-2xl" >
   <div class="historycall flex justify-between">
 <div class="flex items-center gap-2 ">
 <i class="fa-regular fa-clock"></i>
 <p>Call History</p>
 </div>
-<button class="btn bg-[#00A63E]  rounded-3xl text-white">Clear</button>
+<button id="clear" class="btn bg-[#00A63E]  rounded-3xl text-white">Clear</button>
   </div>
-  <div class="flex justify-between mt-5 drop-shadow-xxl bg-[#FAFAFA]  rounded-2xl p-3 ">
-    <div>
-        <p>জাতীয় জরুরি সেবা</p>
-    <p class="text-[#5C5C5C]">999</p>
-    </div>
-    <p>7457y54</p>
-  </div>  
+   <div id="historyContainer"></div>
   
 </div>
  </section>
